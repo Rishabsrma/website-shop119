@@ -45,3 +45,6 @@
     a. Create Rating component  
     b. Create Product component
     c. Using Rating component in Product component
+12. Create Product Details view
+    a. Fetch products from backend
+    b. create three boxes for image, details and process action
