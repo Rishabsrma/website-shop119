@@ -48,3 +48,8 @@
 12. Create Product Details view
     a. Fetch products from backend
     b. create three boxes for image, details and process action
+13. Create Loading and Message Component
+    a. create loading component
+    b. use spinner component
+    c. craete message component
+    d. create utils.js to define getError function
