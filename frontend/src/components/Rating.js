@@ -58,17 +58,6 @@ function Rating(props) {
           }
         />
       </span>
-      <span>
-        <i
-          className={
-            rating >= 6
-              ? 'fas fa-star'
-              : rating >= 5.5
-              ? 'fas fa-star-haf-alt'
-              : 'far fa-star'
-          }
-        />
-      </span>
       <span> {numReviews} reviews</span>
     </div>
   );
