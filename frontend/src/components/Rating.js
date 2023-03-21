@@ -1,3 +1,4 @@
+import React from 'react';
 function Rating(props) {
   const { rating, numReviews } = props;
   return (
@@ -52,6 +53,17 @@ function Rating(props) {
             rating >= 5
               ? 'fas fa-star'
               : rating >= 4.5
+              ? 'fas fa-star-haf-alt'
+              : 'far fa-star'
+          }
+        />
+      </span>
+      <span>
+        <i
+          className={
+            rating >= 6
+              ? 'fas fa-star'
+              : rating >= 5.5
               ? 'fas fa-star-haf-alt'
               : 'far fa-star'
           }
